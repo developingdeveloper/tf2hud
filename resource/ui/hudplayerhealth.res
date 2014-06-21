@@ -6,9 +6,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-300"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"175"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
@@ -25,7 +23,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"135"
@@ -39,11 +36,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"0"
-		"xpos_minmode"	"58"
-		"ypos"			"-100"
+		"ypos"			"100"
 		"zpos"			"3"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
@@ -53,32 +49,22 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"68"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"5"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
+		"xpos"			"60"	[$WIN32]
+		"ypos"			"75"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"150"	[$WIN32]
-		"wide_minmode"	"80"	[$WIN32]
-		"wide"			"70"	[$X360]
-		"tall"			"150"	[$WIN32]
-		"tall_minmode"	"80"	[$WIN32]
-		"tall"			"70"	[$X360]
+		"wide"			"125"	[$WIN32]
+		"tall"			"125"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
-	}
+	}	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
-		"xpos_minmode"	"61"
 		"ypos"			"100"	[$WIN32]
-		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"70"
@@ -87,15 +73,30 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"VarsityRegular80"
-		"fgcolor"		"White"
-	}								
+		"fgcolor"		"HUDWhite"
+	}			
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"3"
+		"ypos"			"103"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"250"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"VarsityRegular80"
+		"fgcolor"		"0 0 0 255"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"xpos"			"30"
+		"ypos"			"75"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
