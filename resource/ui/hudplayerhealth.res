@@ -28,8 +28,8 @@
 		"xpos_minmode"	"60"
 		"ypos"			"13"
 		"zpos"			"4"
-		"wide"			"95"
-		"tall"			"95"
+		"wide"			"135"
+		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -60,10 +60,10 @@
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"110"	[$WIN32]
+		"wide"			"150"	[$WIN32]
 		"wide_minmode"	"80"	[$WIN32]
 		"wide"			"70"	[$X360]
-		"tall"			"110"	[$WIN32]
+		"tall"			"150"	[$WIN32]
 		"tall_minmode"	"80"	[$WIN32]
 		"tall"			"70"	[$X360]
 		"visible"		"0"
@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"VarsityRegular42"
+		"fgcolor"		"Black"
 	}								
 	"PlayerStatusBleedImage"
 	{
