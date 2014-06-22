@@ -79,8 +79,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"3"
-		"ypos"			"103"	[$WIN32]
+		"xpos"			"1"
+		"ypos"			"101"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"70"
@@ -91,6 +91,44 @@
 		"font"			"VarsityRegular80"
 		"fgcolor"		"0 0 0 255"
 	}
+	"HPTeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HPTeamIndicator"
+		"xpos"			"58"
+		"ypos"			"102"
+		"zpos"			"10"
+		"wide"			"5"
+		"tall"	 		"70"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" "1" 
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"	
+	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"58"
+		"ypos"			"102"
+		"zpos"			"-1"
+		"wide"			"130"
+		"tall"			"68"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150"		
+	}	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -101,7 +139,7 @@
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	`	"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"

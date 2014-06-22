@@ -17,12 +17,8 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c100"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
 		"ypos"	"c-50"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"275"
+		"wide"	"300"
 		"tall"	"250"
 	}
 	
@@ -293,7 +289,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -1032,10 +1028,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-25"	[$WIN32]
-		"ypos"			"c40"	[$WIN32]
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"wide"			"250"
-		"tall"			"100"
+		"tall"			"150"
 	}	
 
 	HudTeamGoal
