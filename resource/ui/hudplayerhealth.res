@@ -49,13 +49,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"60"	[$WIN32]
-		"ypos"			"75"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"125"	[$WIN32]
-		"tall"			"125"	[$WIN32]
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}	
@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"40"
 		"zpos"			"7"
 		"wide"			"60"
@@ -148,7 +148,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"			"117"
+		"xpos"			"0"
 		"ypos"			"40"
 		"zpos"			"7"
 		"wide"			"60"

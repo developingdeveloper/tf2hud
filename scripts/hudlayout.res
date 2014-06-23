@@ -117,7 +117,6 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-
 	HudFlameRocketCharge
 	{
 		"fieldName"		"HudFlameRocketCharge"
