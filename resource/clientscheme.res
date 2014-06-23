@@ -1858,7 +1858,20 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}	
+		TFFontSmall16
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"tall_hidef"	"10"
+				"tall_lodef"	"12"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}	
 		TFFontMedium
 		{
 			"1"
@@ -2478,6 +2491,28 @@ Scheme
 			{
 				"name"		"Varsity Regular"
 				"tall"		"54"
+				"weight"	"500"				
+				"antialias" "1"				
+			}
+		}
+		
+		VarsityRegular64
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"64"
+				"weight"	"500"				
+				"antialias" "1"				
+			}
+		}
+		
+		VarsityRegular80
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"80"
 				"weight"	"500"				
 				"antialias" "1"				
 			}

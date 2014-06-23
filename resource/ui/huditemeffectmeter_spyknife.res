@@ -1,16 +1,18 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r350"	[$WIN32]
+		"x_offset"		"40"
+		"xpos"			"r310"	[$WIN32]
+		"ypos"			"r95"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r125"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"r68"	[$WIN32]
+		"x_offset_minmode"		"0"	[$WIN32]
 		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -22,18 +24,18 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"visible_minmode""0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -41,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"55"
+		"xpos"					"50"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"100"
@@ -55,7 +57,7 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -69,6 +71,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"0"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"160"
 		"wide_minmode"			"50"

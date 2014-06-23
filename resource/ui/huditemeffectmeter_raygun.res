@@ -1,18 +1,18 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r350"	[$WIN32]
+		"xpos"			"c50"	[$WIN32]
+		"ypos"			"c100"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r125"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"200"
-		"tall"			"50"
+		"ypos"			"r124"	[$X360]
+		"wide"			"250"
+		"tall"			"250"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -22,12 +22,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"visible_minmode""0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
@@ -41,8 +41,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"55"
-		"ypos"					"10"
+		"xpos"					"78"
+		"ypos"					"35"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"15"
@@ -55,7 +55,7 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -67,12 +67,14 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"0"
+		"xpos"					"50"
+		"ypos"					"16"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"160"
+		"wide"					"162"
 		"wide_minmode"			"50"
-		"tall"					"7"				
+		"tall"					"15"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
