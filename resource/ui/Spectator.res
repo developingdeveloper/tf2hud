@@ -119,9 +119,9 @@
 		"ypos"			"50"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
-		"wide"			"240"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"220"	[$X360]
-		"tall"			"20"
+		"tall"			"0"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"

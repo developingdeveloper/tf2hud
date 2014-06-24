@@ -31,27 +31,12 @@
 		"tabPosition"	"0"
 	}
 	
-	"SidePanelBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SidePanelBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 60"
-	}
-	
 	"random"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"random"
-		"xpos"				"30"
-		"ypos"				"419"
+		"xpos"				"c80"
+		"ypos"				"c101"
 		"zpos"				"6"
 		"wide"				"150"
 		"tall"				"16"
@@ -62,9 +47,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&R  Random"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass random"
+		"Command"			"select  random"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"Default"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -112,20 +97,20 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"30"
-		"ypos"				"275"
+		"xpos"				"c80"
+		"ypos"				"193"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&1   Scout"	[$WIN32]
+		"labelText"			"&1  Scout"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass scout"
-		"font"				"CerbeticaBold16"
+		"Command"			"select 1"
+		"font"				"DefaultLarge"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -150,10 +135,10 @@
 		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"30"
-		"ypos"				"289"
+		"xpos"				"c80"
+		"ypos"				"207"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -162,9 +147,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&2  Soldier"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass soldier"
+		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"DefaultLarge"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -189,10 +174,10 @@
 		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"30"
-		"ypos"				"303"
+		"xpos"				"c80"
+		"ypos"				"221"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -201,9 +186,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&3  Pyro"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass pyro"
+		"Command"			"select  3"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -251,10 +236,10 @@
 		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"30"
-		"ypos"				"323"
+		"xpos"				"c80"
+		"ypos"				"241"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -263,9 +248,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&4  Demoman"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass demoman"
+		"Command"			"select  4"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -290,10 +275,10 @@
 		{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
-		"xpos"				"30"
-		"ypos"				"337"
+		"xpos"				"c80"
+		"ypos"				"255"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -302,9 +287,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&5  Heavy"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass heavyweapons"
+		"Command"			"select  5"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -329,10 +314,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"engineer"
-		"xpos"				"30"
-		"ypos"				"351"
+		"xpos"				"c80"
+		"ypos"				"269"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -341,9 +326,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&6  Engineer"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass engineer"
+		"Command"			"select  6"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -390,10 +375,10 @@
 			{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"30"
-		"ypos"				"371"
+		"xpos"				"c80"
+		"ypos"				"289"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -402,9 +387,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&7  Medic"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass medic"
+		"Command"			"select  7"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -428,10 +413,10 @@
 		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"30"
-		"ypos"				"385"
+		"xpos"				"c80"
+		"ypos"				"303"
 		"zpos"				"6"
-		"wide"				"100"
+		"wide"				"150"
 		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -440,9 +425,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&8  Sniper"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass sniper"
+		"Command"			"select  8"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -466,8 +451,8 @@
 		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"30"
-		"ypos"				"399"
+		"xpos"				"c80"
+		"ypos"				"317"
 		"zpos"				"6"
 		"wide"				"150"
 		"tall"				"16"
@@ -478,9 +463,9 @@
 		"tabPosition"		"0"
 		"labelText"			"&9  Spy"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"joinclass spy"
+		"Command"			"select  9"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -505,10 +490,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"30"
+		"xpos"			"c-295"
 		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"75"
+		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -516,19 +501,18 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Cancel"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"paintbackground""0"
 		"Command"		"vguicancel"
-		"font"			"CerbeticaBold16"
-		
-		"fgcolor"					"TanLight"
+		"font"			"DefaultLarge"
+		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"135"
+		"xpos"			"r180"
 		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"100"
@@ -539,10 +523,10 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground""0"
-		"labelText"		"EDIT LOADOUT (&E)"
-		"textAlignment"	"west"
+		"labelText"		"#EditLoadout"
+		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 	}
 	"LoadoutButtonBackground"
 	{
@@ -571,17 +555,17 @@
 		"paintbackground""0"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 	}
 
 	"ClassMenuSelect"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"30"
+		"ypos"			"r40"
 		"zpos"			"5"
-		"wide"			"255"
+		"wide"			"450"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -589,8 +573,8 @@
 		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold28"
+		"textAlignment"	"west"
+		"font"			"CerbeticaBold32"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -948,11 +932,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"175"
-		"ypos"			"275"
+		"xpos"			"c158"
+		"ypos"			"195"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -960,7 +944,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}	
 	
@@ -968,11 +952,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"175"
-		"ypos"			"289"
+		"xpos"			"c158"
+		"ypos"			"209"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -980,7 +964,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}	
 	
@@ -988,11 +972,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"175"
-		"ypos"			"303"
+		"xpos"			"c158"
+		"ypos"			"223"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1000,7 +984,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}		
 	
@@ -1008,11 +992,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"175"
-		"ypos"			"323"
+		"xpos"			"c158"
+		"ypos"			"243"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1020,7 +1004,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}				
 	
@@ -1028,11 +1012,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"175"
-		"ypos"			"337"
+		"xpos"			"c158"
+		"ypos"			"257"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1040,7 +1024,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}							
 	
@@ -1048,11 +1032,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"175"
-		"ypos"			"351"
+		"xpos"			"c158"
+		"ypos"			"271"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1060,7 +1044,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}						
 	
@@ -1068,11 +1052,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"175"
-		"ypos"			"371"
+		"xpos"			"c158"
+		"ypos"			"291"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1080,7 +1064,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}							
 	
@@ -1088,11 +1072,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"175"
-		"ypos"			"385"
+		"xpos"			"c158"
+		"ypos"			"305"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1100,7 +1084,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}						
 	
@@ -1108,11 +1092,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"175"
-		"ypos"			"399"
+		"xpos"			"c158"
+		"ypos"			"319"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"16"
+		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -1120,7 +1104,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"	
 	}		
 	
@@ -1374,11 +1358,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"0"
-		"ypos"			"-30"
+		"xpos"			"c-360"
+		"ypos"			"0"
 		"zpos"			"6"		
-		"wide"			"300"
-		"tall"			"300"
+		"wide"			"480"
+		"tall"			"480"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"

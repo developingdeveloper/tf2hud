@@ -116,7 +116,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CerbeticaBold28"
+		"font"			"DefaultLarge"
 		"fgcolor"		"TanLight"
 	}
 	
@@ -140,7 +140,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
@@ -167,7 +167,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
@@ -194,7 +194,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
@@ -221,7 +221,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
@@ -251,7 +251,7 @@
 		"brighttext"	"0"
 		"paintbackground""0"
 		"command"		"cancelmenu"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 	}
 	
 	"TeamMenuSelect"
@@ -272,7 +272,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold32"
+		"font"			"DefaultLarge"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -317,7 +317,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"CerbeticaBold16"
+		"font"			"DefaultLarge"
 		"fgcolor"		"white"
 	}
 
@@ -376,7 +376,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica14"
+		"font"			"DefaultMedium"
 		"fgcolor"		"255 255 255 175"
 	}
 	"BlueCountPlayers"
@@ -396,7 +396,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica14"
+		"font"			"DefaultMedium"
 		"fgcolor"		"255 255 255 175"
 	}		
 	
@@ -417,7 +417,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica14"
+		"font"			"DefaultMedium"
 		"fgcolor"		"255 255 255 175"
 	}	
 	"RedCountPlayers"
@@ -437,7 +437,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica14"
+		"font"			"DefaultMedium"
 		"fgcolor"		"255 255 255 175"
 	}	
 	
