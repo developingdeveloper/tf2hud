@@ -297,9 +297,9 @@
 			"Pyro"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
+				"angles_x"		"-15"
 				"angles_x_minmode"	"0"
-				"angles_y"		"172"
+				"angles_y"		"170"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
@@ -308,10 +308,10 @@
 			}
 			"Spy"
 			{
-				"fov"			"20"
+				"fov"			"22"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"3"
-				"angles_y"		"160"
+				"angles_y"		"165"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
