@@ -232,8 +232,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	Animate PlayerStatusHealthValue			fgcolor		"255 0 0 255"	Linear	0.0 0.0
-	Animate	PlayerStatusHealthValue 	Alpha		"255"		Linear 0.0 0.1
-	Animate	PlayerStatusHealthValue 	Alpha		"0"			Linear 0.3 0.1
+	Animate	PlayerStatusHealthValue 	Alpha		"0"		Linear 0.0 0.1
+	Animate	PlayerStatusHealthValue 	Alpha		"255"			Linear 0.3 0.1
 
 	RunEvent HudHealthDyingPulseLoop	0.5
 }
@@ -248,8 +248,8 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"White"	Linear	0.0	0.0
-	Animate	PlayerStatusHealthValue 	Alpha		"255"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		fgcolor		"White"	Linear	0.0	0.0
+	Animate	PlayerStatusHealthValue 	Alpha		"255"	Linear 0.0 0.0
 
 
 }
@@ -449,7 +449,7 @@ event HudMedicCharged
 	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"0 255 0 255"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }

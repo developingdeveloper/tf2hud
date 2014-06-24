@@ -74,7 +74,7 @@
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"c0"	[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -236,8 +236,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
+		"xpos"		"75"	[$WIN32]
+		"ypos"		"r50"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
 		"wide"		"500"
@@ -252,8 +252,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"500"
+		"tall"	 	"100"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -273,7 +273,7 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"50"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -290,7 +290,7 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"100"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -1376,7 +1376,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c-200"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
