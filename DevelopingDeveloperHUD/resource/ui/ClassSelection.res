@@ -109,7 +109,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&1  Scout"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select 1"
+		"Command"			"joinclass scout"
 		"font"				"DefaultLarge"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
@@ -147,7 +147,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&2  Soldier"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select 2"
+		"Command"			"joinclass soldier"
 		"Default"			"0"
 		"font"				"DefaultLarge"
 		"scaleImage"		"1"
@@ -186,7 +186,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&3  Pyro"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  3"
+		"Command"			"joinclass pyro"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -248,7 +248,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&4  Demoman"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  4"
+		"Command"			"joinclass demoman"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -287,7 +287,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&5  Heavy"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  5"
+		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -326,7 +326,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&6  Engineer"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  6"
+		"Command"			"joinclass engineer"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -387,7 +387,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&7  Medic"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  7"
+		"Command"			"joinclass medic"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -425,7 +425,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&8  Sniper"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  8"
+		"Command"			"joinclass sniper"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -463,7 +463,7 @@
 		"tabPosition"		"0"
 		"labelText"			"&9  Spy"	[$WIN32]
 		"textAlignment"		"west"
-		"Command"			"select  9"
+		"Command"			"joinclass spy"
 		"Default"			"0"
 		"font"				"DefaultLarge"	
 		"scaleImage"		"1"
@@ -932,7 +932,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"195"
 		"zpos"			"5"
 		"wide"			"100"
@@ -952,7 +952,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"209"
 		"zpos"			"5"
 		"wide"			"100"
@@ -972,7 +972,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"223"
 		"zpos"			"5"
 		"wide"			"100"
@@ -992,7 +992,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"243"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1012,7 +1012,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"257"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1032,7 +1032,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"271"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1052,7 +1052,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"291"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1072,7 +1072,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"305"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1092,7 +1092,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c158"
+		"xpos"			"c165"
 		"ypos"			"319"
 		"zpos"			"5"
 		"wide"			"100"
